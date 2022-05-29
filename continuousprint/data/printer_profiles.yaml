@@ -32,3 +32,14 @@ PrinterProfile:
     defaults:
       clearBed: "Pause"
       finished: "Generic Off"
+  - name: "Prusa i3 MK3S+"
+    make: "Prusa"
+    model: "Original Prusa i3 MK3S+"
+    width: 250
+    depth: 210
+    height: 210
+    formFactor: "rectangular"
+    selfClearing: true
+    defaults:
+      clearBed: "Wipe Forward"
+      finished: "Generic Off"
